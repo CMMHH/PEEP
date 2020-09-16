@@ -1,4 +1,5 @@
 # PEEP
 
-ABOUT \n 
-Want to connect the UTSC community. To help people make friends or find group members for team projects.
+ABOUT 
+
+A Platform for UTSC students to connect with each other in a easier way.
