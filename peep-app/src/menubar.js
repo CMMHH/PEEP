@@ -31,15 +31,13 @@ export default class Menubar extends React.Component {
         this.state.options[1] = "About Us"
         this.state.options[2] = "Values"
         this.state.options[3] = "Sign In/Up"
+        
         return (
             <div>
-                <h1> {this.state.options[0]} </h1>
-                <h1> {this.state.options[1]} </h1>
-                <h1> {this.state.options[2]} </h1>
-                <h1> {this.state.options[3]} </h1>
-                {/* <Optionbar  value = {this.state.options[1]} />
-                <Optionbar  value = {this.state.options[2]} />
-                <Optionbar  value = {this.state.options[3]} /> */}
+                <Options  value = {this.state.options[0]} />
+                <Options  value = {this.state.options[1]} />
+                <Options  value = {this.state.options[2]} />
+                <Options  value = {this.state.options[3]} />
                 
             </div>
         );
