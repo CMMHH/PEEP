@@ -1,6 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './style.css';
 
 class OptionBar extends React.Component {
     render() {
@@ -30,7 +31,7 @@ export default class Menubar extends React.Component {
     
     render() {
         return (
-            <div>
+            <div className="menu" >
                 <OptionBar  value={this.state.options[0]} onClick={() => this.handleClick(0)} />
                 <OptionBar  value={this.state.options[1]} onClick={() => this.handleClick(1)} />
                 <OptionBar  value={this.state.options[2]} onClick={() => this.handleClick(2)} />
@@ -40,4 +41,5 @@ export default class Menubar extends React.Component {
     }
 }
 
-ReactDOM.render(<Menubar />, document.getElementById('root'));
+
+
