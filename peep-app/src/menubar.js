@@ -6,9 +6,9 @@ import './style.css';
 class OptionBar extends React.Component {
     render() {
         return (
-            <button className="optbutton" onClick={()=>this.props.onClick()}>
+            <p className="optbutton" onClick={()=>this.props.onClick()}>
                 {this.props.value}
-            </button>
+            </p>
         )
     }
 }
