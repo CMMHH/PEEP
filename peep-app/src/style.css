@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .menu {
   background-color: #edc7b7;
   padding-top: 20px;
@@ -21,4 +22,30 @@
 
 .optbutton:hover {
   color: #eee2dc;
+=======
+
+.menu {
+    background-color: #edc7b7;
+    padding-top: 20px;
+    height: 100%;
+    width: 25%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.optbutton {
+    background-color: #edc7b7;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ac3b61;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+.optbutton:hover {
+    color: #eee2dc;
+>>>>>>> a7e443cf602e3c2c6858555641fad054c947875a
 }
