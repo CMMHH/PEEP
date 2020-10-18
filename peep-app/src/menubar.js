@@ -19,7 +19,6 @@ export default class Menubar extends React.Component {
                 "Home",
                 "About Us",
                 "Our Values",
-                "Sign In/Sign Up"
             ]
         };
     }
@@ -34,7 +33,6 @@ export default class Menubar extends React.Component {
                 <OptionBar  value={this.state.options[0]} onClick={() => this.handleClick(0)} />
                 <OptionBar  value={this.state.options[1]} onClick={() => this.handleClick(1)} />
                 <OptionBar  value={this.state.options[2]} onClick={() => this.handleClick(2)} />
-                <OptionBar  value={this.state.options[3]} onClick={() => this.handleClick(3)} />
             </div>
         );
     }
