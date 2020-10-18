@@ -1,18 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Menubar from './menubar.js'
+import Menubar from './menubar.js';
+import './style.css';
 
+//work on this later @ctinam
 class App extends React.Component {
     render() {
         return (
-            <div id="colorlib-page">
-                <div id="container-wrap">
-                    <Menubar></Menubar>
+            <div>
+
+                <Menubar ></Menubar>
                                     
-                </div>
+     
             </div>
         )
     }
 }
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
 export default App;
