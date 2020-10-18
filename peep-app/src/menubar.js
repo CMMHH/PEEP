@@ -38,11 +38,7 @@ export default class Menubar extends React.Component {
             </div>
         );
     }
-<<<<<<< HEAD
-}
-=======
 }
 
 
 
->>>>>>> a7e443cf602e3c2c6858555641fad054c947875a
